@@ -1,0 +1,16 @@
+@import "./libs/normalize/normalize.scss";
+@import "./libs/bootstrap/main.scss";
+@import "./libs/components/index.scss";
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
