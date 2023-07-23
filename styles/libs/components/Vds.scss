@@ -1,0 +1,43 @@
+.Vds {
+  position: relative;
+  height: 700px;
+  margin-top: 150px;
+  z-index: 99;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -90px;
+    width: 100%;
+    height: 540px;
+    background-image: url("assets/players.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(197.95deg, #002b07 7.68%, rgba(0, 38, 6, 0.932292) 11.97%, rgba(0, 9, 22, 0) 71.03%),
+      linear-gradient(202.71deg, #000000 11.94%, rgba(25, 180, 50, 0) 40.74%);
+    width: 50%;
+    height: 1000px;
+    z-index: -1;
+    border-radius: 32px 0 32px 0;
+    top: 0;
+    right: 0;
+  }
+
+  .wrapper {
+    padding-top: 60px;
+    padding-left: 60px;
+
+    .square {
+      background: #fff;
+      width: 48px;
+      height: 48px;
+      min-width: 48px;
+      border-radius: 8px;
+    }
+  }
+}
