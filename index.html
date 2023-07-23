@@ -1,21 +1,198 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VDS</title>
-  </head>
-  <body>
-    <header class="Header">
-      <div class="container">
-        <div class="logo">
-          <h2 class="fw-bold text-secondary">TMDB</h2>
-          <div class="pill bg-secondary"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@600&display=swap" rel="stylesheet">
+  <title>VDS</title>
+</head>
+
+<body>
+  <header class="Header">
+    <div class="container h-100">
+      <section class="d-flex justify-content-between align-items-center h-100">
+        <div class="logo d-flex align-items-center">
+          <div class="logo-initials">
+            <svg width="50" height="45">
+              <image xlink:href="assets/V.svg" />
+            </svg>
+            <svg width="45" height="45">
+              <image xlink:href="assets/D.svg" />
+            </svg>
+            <svg width="48" height="45">
+              <image xlink:href="assets/S.svg" />
+            </svg>
+          </div>
+
+          <svg width="73" height="37">
+            <image xlink:href="assets/VDS.svg" />
+          </svg>
+        </div>
+
+        <div class="actions">
+          <a href="#" class="text-white">Fazer login</a>
+          <a href="#" class="text-white">Contato / Suporte</a>
+        </div>
+      </section>
+    </div>
+    </div>
+  </header>
+
+  <section class="Banner mb-10">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h1 class="text-white">Segredos e técnicas para ser <span class="text-primary">trader</span> com skins de CS2.
+          </h1>
+          <div class="banner-actions d-flex justify-content-start mt-8 ">
+            <a href="#" class="Button ">
+              <div class="d-flex justify-content-between align-items-center">
+                <svg width="24" height="24">
+                  <image xlink:href="assets/buy.svg" />
+                </svg>
+                <span class="text-white">Comprar agora</span>
+              </div>
+            </a>
+            <a href="#" class="Button_secondary">
+              <div class="d-flex justify-content-between align-items-center">
+                <svg width="24" height="24">
+                  <image xlink:href="assets/play.svg" />
+                  <defs>
+                    <filter id="f1" x="0" y="0">
+                      <feGaussianBlur in="SourceGraphic" stdDeviation="15" />
+                    </filter>
+                  </defs>
+                </svg>
+                <span class="text-white">Conheça o curso</span>
+              </div>
+            </a>
+            <!-- <button class="button"> </button> -->
+          </div>
+        </div>
+        <div class="col-6">
+          <!-- <h1 class="text-white">Segredos e técnicas para ser <span class="text-primary">trader</span> com skins de CS2.</h1> -->
+          <img src="assets/knife.png" alt="CSGO knife">
         </div>
       </div>
-    </header>
+    </div>
+  </section>
 
-    <script type="module" src="/main.js"></script>
-  </body>
+
+  <section class="Video">
+    <div class="container-xxl container-xl  container-lg  container-md  container-sm">
+      <div class="video-wrapper w-100 d-flex justify-content-center align-content-center gradient-box">
+        <iframe  class="w-100 h-100" type="text/html" src="https://www.youtube.com/embed/_bVjz_OM29A?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"></iframe>
+      </div>
+    
+    </div>
+  </section>
+
+  <section class="Comunidade">
+    <div class="container d-flex flex-column align-items-center justify-content-center">
+      <h1 class="text-center gradient-text">Venha fazer parte de uma seleta comunidade.</h1>
+        
+      <a href="#" class="Button mt-8 mb-8">
+        <div class="d-flex justify-content-between align-items-center">
+          <svg width="24" height="24">
+            <image xlink:href="assets/buy.svg" />
+          </svg>
+          <span class="text-white">Comprar meu acesso</span>
+        </div>
+      </a>
+      
+      <div class="mb-2">
+        <p class="text-white me-2 d-inline-block mb-0">Apenas</p><p class="text-primary mb-0 fw-bold d-inline-block">12 x R$  49,00*</p>
+      </div>
+
+      <small>*Cartão de Crédito</small>
+    </div>
+  </section>
+
+  <section class="Sobre">
+    <div class="container">
+      <h2 class="text-center text-primary">Conheça o Lugin</h2>
+
+      <div class="row">
+        <div class="col-6">
+          <div class="lugin-profile">
+
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="d-flex flex-column justify-content-center align-items-start h-100 p-10">
+            <h3 class="text-primary mb-8">Gabriel “Lugin” Brianez</h3>
+            <p class="text-white mb-0">
+              Pellentesque ut nulla ac nibh luctus convallis non sed lorem. Donec feugiat, nunc id tempor molestie, arcu purus finibus justo, ut gravida nulla dui vel diam. Integer nibh urna, volutpat eu iaculis vitae, maximus mollis augue. Maecenas laoreet risus mauris. Maecenas quis tempor nisl.  Aliquam ante felis, aliquet ac posuere vitae, tempor nec odio.
+              Duis aliquet laoreet ex, ac sollicitudin velit laoreet vitae. Etiam non rutrum nulla. Quisque augue eros, iaculis commodo dignissim non, vehicula quis est. Phasellus quis lobortis risus. 
+            </p>
+
+            <a class="Button_tertiary" href="#">
+              <div class="d-flex align-items-center">
+<svg  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16.172 10.9999L10.808 5.63592L12.222 4.22192L20 11.9999L12.222 19.7779L10.808 18.3639L16.172 12.9999H4V10.9999H16.172Z" fill="#A1F1FF"/>
+</svg>
+
+                <span class="text-white">
+                  Conheça mais
+  
+                </span>
+              </div>
+            </a>
+          </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="Modulos">
+    <div class="container">
+      <h2 class="text-left text-primary mb-9">Conheça nossos módulos</h2>
+    </div>
+
+    <div class="owl-carousel">
+      <div class="module-preview">
+        <div class="banner mb-6" style="background-image: url('./assets/red-knife.png')"></div>
+        <span class="title mb-lg-4">MÓDULO 0</span>
+        <h6 class="name text-white">Introdução</h6>
+      </div>
+      <div class="module-preview">
+        <div class="banner mb-6" style="background-image: url('./assets/dollar.png')"></div>
+        <span class="title mb-lg-4">MÓDULO 1</span>
+        <h6 class="name text-white" >O Bilionário Mercado de Skins</h6>
+      </div>
+      <div class="module-preview">
+        <div class="banner mb-6" style="background-image: url('./assets/player.png')"></div>
+        <span class="title mb-lg-4">MÓDULO 2</span>
+        <h6 class="name text-white" >A Teoria das Skins de CS:GO</h6>
+      </div>
+      <div class="module-preview">
+        <div class="banner mb-6" style="background-image: url('./assets/valve.png')"></div>
+        <span class="title mb-lg-4">MÓDULO 3</span>
+        <h6 class="name text-white" >A Fábrica de Dinheiro Infinito da Valve</h6>
+      </div>
+      <div class="module-preview">
+        <div class="banner mb-6" style="background-image: url('./assets/red-knife.png')"></div>
+        <span class="title mb-lg-4">MÓDULO 0</span>
+        <h6 class="name text-white">Introdução</h6>
+      </div>
+      <div class="module-preview">
+        <div class="banner mb-6" style="background-image: url('./assets/dollar.png')"></div>
+        <span class="title mb-lg-4">MÓDULO 1</span>
+        <h6 class="name text-white" >O Bilionário Mercado de Skins</h6>
+      </div>
+      <div class="module-preview">
+        <div class="banner mb-6" style="background-image: url('./assets/player.png')"></div>
+        <span class="title mb-lg-4">MÓDULO 2</span>
+        <h6 class="name text-white" >A Teoria das Skins de CS:GO</h6>
+      </div>
+      <div class="module-preview">
+        <div class="banner mb-6" style="background-image: url('./assets/valve.png')"></div>
+        <span class="title mb-lg-4">MÓDULO 3</span>
+        <h6 class="name text-white" >A Fábrica de Dinheiro Infinito da Valve</h6>
+      </div>
+    </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>

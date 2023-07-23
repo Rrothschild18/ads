@@ -1,9 +1,25 @@
 @import "./libs/normalize/normalize.scss";
 @import "./libs/bootstrap/main.scss";
+@import "./libs/owl-carousel/index.scss";
 @import "./libs/components/index.scss";
 
 html {
   font-family: "Inter", sans-serif;
+  background-color: #000816;
+
+  body {
+    background-color: #000816;
+  }
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: transparent !important;
+
+  &:hover {
+    color: transparent !important;
+  }
 }
 
 h1,
@@ -13,4 +29,39 @@ h4,
 h5,
 h6 {
   margin: 0;
+  font-family: "Clash Display", sans-serif !important;
 }
+
+h1 {
+  background-image: url("assets/dust 2.png");
+  font-size: 64px;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 32px;
+}
+h4 {
+  font-size: 64px;
+}
+h5 {
+  font-size: 64px;
+}
+
+._h1 {
+  font-size: 64px;
+}
+
+.gradient-text {
+  background-image: linear-gradient(89.01deg, #a1f1ff 3.67%, #ffffff 94.37%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+// h1 {
+//   font: 800 40px Arial;
+//   -webkit-text-fill-color: transparent;
+//   -webkit-text-stroke: 1px;
+// }

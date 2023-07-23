@@ -1,0 +1,22 @@
+@import "node_modules/owl.carousel/dist/assets/owl.carousel.min.css";
+@import "node_modules/owl.carousel/dist/assets/owl.theme.default.min.css";
+
+.custom-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 0;
+  background: #333a44;
+
+  &.active {
+    background: #fff;
+  }
+}
+
+.owl-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 53px;
+}

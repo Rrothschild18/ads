@@ -1,8 +1,8 @@
-$purple: #2d0c5e;
-$purple-600: #4e15a2;
-$purple-400: #681cd9;
-$purple-300: #955dea;
-$purple-100: #dcc9f8;
+$ligth-blue: #a1f1ff;
+$ligth-blue-600: #85edff;
+$ligth-blue-400: #adf3ff;
+$ligth-blue-300: #d6f9ff;
+$ligth-blue-100: #ebfcff;
 
 $white: rgba(255, 255, 255, 0.95);
 $white-600: rgba(255, 255, 255, 0.75);
@@ -16,16 +16,18 @@ $gray-400: #777777;
 $gray-100: #edf2f7;
 
 $white: #ffffff;
+// $dark-blue: #000816;
 
-$primary: $purple;
+$primary: $ligth-blue;
 $secondary: $white;
+// $tertiary: $dark-blue;
 
 $theme-colors: (
-  "primary": $purple,
-  "primary-600": $purple-600,
-  "primary-400": $purple-400,
-  "primary-300": $purple-300,
-  "primary-100": $purple-100,
+  "primary": $ligth-blue,
+  "primary-600": $ligth-blue-600,
+  "primary-400": $ligth-blue-400,
+  "primary-300": $ligth-blue-300,
+  "primary-100": $ligth-blue-100,
 
   "secondary": $white,
   "secondary-600": $white-600,

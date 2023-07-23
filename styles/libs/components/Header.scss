@@ -1,2 +1,29 @@
 .Header {
+  height: 129px;
+  margin-bottom: 45px;
+
+  .logo {
+    gap: 15px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    background-image: url("assets/dust 2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 9, 22, 0) 63.54%, #000916 100%);
+    z-index: 2;
+  }
 }
