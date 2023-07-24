@@ -1,6 +1,9 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
+  optimizeDeps: {
+    disabled: true,
+  },
   css: {
     preprocessorOptions: {
       scss: {
@@ -8,4 +11,5 @@ export default defineConfig({
       },
     },
   },
+  commonjsOptions: { include: [] },
 });
