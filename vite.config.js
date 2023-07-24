@@ -12,4 +12,5 @@ export default defineConfig({
     },
   },
   commonjsOptions: { include: [] },
+  base: "/ads",
 });
