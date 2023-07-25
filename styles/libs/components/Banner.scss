@@ -1,4 +1,42 @@
 .Banner {
   position: relative;
   z-index: 99;
+
+  picture {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+
+    &::after {
+      content: "";
+      background-image: url("assets/trade-b.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 48px 48px;
+      position: absolute;
+      height: 80px;
+      width: 80px;
+      border-radius: 8px;
+      background-color: rgba(255, 255, 255, 0.2);
+      padding: 8px;
+      left: 50%;
+      top: 28%;
+    }
+
+    &::before {
+      content: "";
+      background-image: url("assets/dollar-w.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 32px 32px;
+      position: absolute;
+      height: 60px;
+      width: 60px;
+      border-radius: 8px;
+      background-color: rgba(255, 255, 255, 0.2);
+      padding: 16px;
+      left: 21%;
+      top: -23px;
+    }
+  }
 }

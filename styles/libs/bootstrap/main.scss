@@ -19,6 +19,8 @@
 
 @import "./options.scss";
 
+//custom scss for components
+
 //Core bootstrap
 
 @import "node_modules/bootstrap/scss/mixins";
@@ -37,12 +39,7 @@
 @import "node_modules/bootstrap/scss/buttons";
 @import "node_modules/bootstrap/scss/button-group";
 
-// @import "~bootstrap/scss/tables";
+//Components
+@import "node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-.w-60 {
-  width: 60% !important;
-}
-
-.overflow-y-auto {
-  overflow-y: auto;
-}
+@import "./accordion.scss";

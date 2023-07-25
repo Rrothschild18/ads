@@ -9,5 +9,11 @@
 
   .terms {
     gap: 24px;
+
+    span {
+      &:hover {
+        color: #a1f1ff;
+      }
+    }
   }
 }

@@ -1,0 +1,83 @@
+.accordion {
+  box-shadow: none;
+  background: #000816;
+
+  .accordion-item {
+    box-shadow: none;
+    background: #000816;
+    border: 0;
+
+    .accordion-header {
+      background: #000816;
+      border: 0;
+      box-shadow: none;
+
+      .accordion-collapse {
+        background: #000816;
+        border: 0;
+        box-shadow: none;
+      }
+    }
+
+    .accordion-button {
+      background: #000816;
+      box-shadow: none;
+      border: 0;
+
+      font-size: 22px;
+
+      &:not(.colapsed) {
+        color: #fff;
+        background-color: #000816;
+        box-shadow: none;
+      }
+
+      &::after,
+      &::before {
+        background: #a1f1ff;
+        box-shadow: none;
+      }
+
+      &::after {
+        content: "";
+        width: 2px;
+        position: absolute;
+        top: calc(50% - 7px);
+        right: calc(1rem + 6px);
+        display: block;
+        transition: all 0.3s;
+        height: 15px;
+      }
+
+      &::before {
+        content: "";
+        width: 14px;
+        height: 2px;
+        position: absolute;
+        top: calc(50% - 1px);
+        right: 1rem;
+        display: block;
+        transition: all 0.3s;
+      }
+    }
+
+    .accordion-body {
+      background-color: #000816;
+      background: #000816;
+      color: #acbdd6;
+      border: 0;
+      font-weight: 400;
+      box-shadow: none;
+    }
+  }
+
+  .accordion-button[aria-expanded="true"]::after {
+    transform: rotate(90deg) translateX(-0.1px);
+    background: #fff;
+  }
+
+  .accordion-button[aria-expanded="true"]::before {
+    transform: rotate(180deg);
+    background: #fff;
+  }
+}

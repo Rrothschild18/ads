@@ -35,6 +35,7 @@
       p {
         font-size: 60px;
         font-weight: bold;
+        margin-bottom: 0;
       }
 
       .special {
@@ -43,7 +44,8 @@
         margin-left: -10px;
       }
 
-      .card {
+      .credit-card {
+        background-color: transparent;
       }
     }
   }
