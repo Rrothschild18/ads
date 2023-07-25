@@ -120,13 +120,27 @@
 
 
   <section class="Video">
-    <div class="container-xxl container-xl  container-lg  container-md  container-sm">
-      <div class="video-wrapper w-100 d-flex justify-content-center align-content-center gradient-box">
-        <iframe class="w-100 h-100" type="text/html"
-          src="https://www.youtube.com/embed/_bVjz_OM29A?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"></iframe>
+    <div class="container-xxl container-xl container-lg container-md container-sm">
+      <div id="video" class="video-wrapper w-100 d-flex justify-content-center align-content-center gradient-box position-relative">
+
+        <div class="play">
+          <svg width="80" height="80" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.591 12L3 5.60549V18.3945L12.591 12ZM17.064 12.624L1.1655 23.223C1.05256 23.2982 0.921346 23.3413 0.785837 23.3477C0.650329 23.3542 0.515599 23.3238 0.395999 23.2598C0.276398 23.1958 0.176405 23.1005 0.10667 22.9841C0.0369353 22.8678 7.00806e-05 22.7347 0 22.599V1.401C7.00806e-05 1.26533 0.0369353 1.13223 0.10667 1.01586C0.176405 0.899492 0.276398 0.804217 0.395999 0.740184C0.515599 0.676151 0.650329 0.645757 0.785837 0.652239C0.921346 0.658722 1.05256 0.701838 1.1655 0.776996L17.064 11.376C17.1667 11.4445 17.2509 11.5373 17.3092 11.6461C17.3674 11.755 17.3979 11.8765 17.3979 12C17.3979 12.1235 17.3674 12.245 17.3092 12.3539C17.2509 12.4627 17.1667 12.5555 17.064 12.624Z" fill="#A1F1FF"/>
+            </svg>
+            
+        </div>
       </div>
 
     </div>
+
+    <dialog id="video-dialog" >
+      <div class="w-100 h-100 position-relative">
+        <iframe id="frame" class="w-100 h-100" type="text/html"
+        src="#"></iframe>
+        <div class="close"></div>
+      </div>
+    </dialog>
+
   </section>
 
   <section class="Comunidade">
@@ -354,7 +368,7 @@
       <section>
         <div class="scroll text1">
           <div>
-         
+
             <span class="me-4 ms-4">Viva de Skins</span>
             <svg width="72" height="64">
               <image xlink:href="assets/crown-b.svg" />
@@ -403,7 +417,7 @@
         </div>
         <div class="scroll2 text2">
           <div>
-          
+
             <span class="me-4 ms-4">Viva de Skins</span>
             <svg width="72" height="64">
               <image xlink:href="assets/crown-g.svg" />
@@ -427,7 +441,7 @@
             <span class="me-4 ms-4">Viva de Skins</span>
           </div>
           <div>
-           
+
             <span class="me-4 ms-4">Viva de Skins</span>
             <svg width="72" height="64">
               <image xlink:href="assets/crown-g.svg" />
@@ -538,7 +552,10 @@
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
-               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui doloribus corrupti at fugit explicabo quis earum consequatur exercitationem autem dolorem illo adipisci delectus obcaecati maiores nisi repellendus, omnis veritatis harum assumenda accusamus. Atque vero, voluptatum soluta quos sunt veniam minus?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui doloribus corrupti at fugit explicabo quis
+                earum consequatur exercitationem autem dolorem illo adipisci delectus obcaecati maiores nisi
+                repellendus, omnis veritatis harum assumenda accusamus. Atque vero, voluptatum soluta quos sunt veniam
+                minus?
               </div>
             </div>
           </div>

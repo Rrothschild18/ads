@@ -25,3 +25,26 @@ $(document).ready(function () {
     },
   });
 });
+
+const videoUrl =
+  "https://www.youtube.com/embed/_bVjz_OM29A?autoplay=0&fs=0&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com";
+
+const videoContainer = document.querySelector("#video");
+const videoDialog = document.querySelector("#video-dialog");
+const videoFrame = document.querySelector("#frame");
+
+videoContainer.addEventListener("click", () => {
+  videoDialog.showModal();
+  videoFrame.src = videoUrl;
+});
+
+function onClick(event) {
+  if (event.target === videoDialog) {
+    dialog.close();
+    videoFrame.src = "#";
+  }
+}
+
+const dialog = document.querySelector("#video-dialog");
+dialog.addEventListener("click", onClick);
+dialog.showModal();
