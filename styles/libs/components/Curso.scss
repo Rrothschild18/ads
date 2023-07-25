@@ -1,0 +1,22 @@
+.Curso {
+  margin-top: 144px 0;
+  height: 446px;
+  position: relative;
+
+  h2,
+  p {
+    color: #091f49;
+  }
+
+  .container {
+    background: linear-gradient(84.89deg, #a1f1ff 13.37%, #ffffff 124.82%);
+    border-radius: 32px 32px 0 32px;
+    padding: 60px;
+  }
+
+  .app {
+    position: absolute;
+    right: -1px;
+    top: -73px;
+  }
+}
