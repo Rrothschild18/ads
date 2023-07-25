@@ -1,0 +1,29 @@
+.FAQ {
+  h2 {
+  }
+
+  hr {
+    width: 100%;
+    height: 1px;
+    color: #122c52;
+  }
+
+  .questions {
+    gap: 136px;
+
+    h2 {
+      font-family: "Inter", sans-serif !important;
+    }
+
+    .list {
+      li {
+        font-size: 22px;
+      }
+
+      p {
+        margin-top: 18px;
+        color: #acbdd6;
+      }
+    }
+  }
+}

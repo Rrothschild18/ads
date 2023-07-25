@@ -5,47 +5,18 @@
   height: 56px;
   padding: 16px 30px 16px 30px;
   border-radius: 8px;
-  background: #020024;
-  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, #020024b8 50% 100%, rgba(1, 0, 10, 0.6) 100%);
-  color: transparent;
-  font-size: 18px;
-  font-weight: bold;
-  outline: 1.5px solid transparent;
-
-  &:before {
-    content: "";
-    background-color: #fff;
-    position: absolute;
-    left: -2px;
-    top: -1.9px;
-    border-radius: 8px;
-    z-index: -1;
-    width: 232.2px;
-    height: 60px;
-    background: linear-gradient(
-      90deg,
-      #101b2a 0%,
-      rgba(255, 255, 255, 0.1516981793) 50%,
-      rgba(255, 255, 255, 0.75) 100%
-    );
-    transition: all 0.15s ease-in-out;
-  }
-
-  &:hover {
-    &:before {
-      content: "";
-      left: 0;
-      top: 0;
-      width: 100% !important;
-      height: 100% !important;
-      outline: 1.5px solid rgb(25, 180, 50);
-      transition: all 0.15s ease-in-out;
-    }
-  }
+  background: #091f49;
 
   span {
     margin-left: 12px;
   }
+
+  &:hover {
+    background: #000916;
+    outline: 1px solid #19b432;
+  }
+
+  transition: all 0.15s ease-in;
 }
 
 .Button_secondary {
@@ -58,26 +29,15 @@
   background: transparent;
   font-size: 16px;
   font-weight: normal;
-  outline: 1.5px solid transparent;
 
   span {
     display: flex;
   }
 
   &:hover {
-    span {
-      &:before {
-        content: "";
-        background-color: #a2f1fe;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        position: absolute;
-        left: 25px;
-        top: 17px;
-        z-index: -2;
-        filter: blur(8px);
-        -webkit-filter: blur(10px);
+    svg {
+      path {
+        fill: #19b432;
       }
     }
   }
