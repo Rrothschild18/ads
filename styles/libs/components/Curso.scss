@@ -18,6 +18,151 @@
   .app {
     position: absolute;
     right: -1px;
-    top: -73px;
+    top: -72px;
+  }
+
+  .Button_tertiary {
+    max-width: 243px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .Curso {
+    .container {
+      border-radius: 28px 28px 0 28px;
+    }
+
+    .Button_tertiary {
+      max-width: 243px;
+    }
+
+    .app {
+      top: -24px;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .Curso {
+    height: 100%;
+
+    .container {
+      border-radius: 28px 28px 0 28px;
+    }
+
+    .Button_tertiary {
+      max-width: 243px;
+    }
+
+    .app {
+      top: 56px;
+      width: 351px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .Curso {
+    height: 100%;
+
+    h2 {
+      margin-bottom: 32px;
+      text-align: center;
+    }
+
+    .container {
+      border-radius: 28px 28px 0 28px;
+      padding: 50px;
+    }
+
+    .Button_tertiary {
+      max-width: 209px;
+    }
+
+    .mock {
+      margin-top: 40px;
+      width: 250px;
+      height: 380px;
+    }
+
+    .app {
+      display: block;
+      position: absolute;
+      width: 250px;
+      top: unset;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .Curso {
+    height: 100%;
+
+    h2 {
+      margin-bottom: 32px;
+      text-align: center;
+    }
+
+    .container {
+      border-radius: 28px 28px 0 28px;
+      padding: 40px 24px 0 24px;
+    }
+
+    .Button_tertiary {
+      max-width: 209px;
+    }
+
+    .mock {
+      margin-top: 40px;
+      width: 250px;
+      height: 380px;
+    }
+
+    .app {
+      display: block;
+      position: absolute;
+      width: 250px;
+      top: unset;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  .Curso {
+    height: 100%;
+
+    h2 {
+      margin-bottom: 32px;
+      text-align: center;
+    }
+
+    .container {
+      border-radius: 28px 28px 0 28px;
+      padding: 40px 24px 0 24px;
+    }
+
+    .Button_tertiary {
+      max-width: 209px;
+    }
+
+    .mock {
+      margin-top: 40px;
+      width: 250px;
+      height: 380px;
+      background: none;
+    }
+
+    .app {
+      display: block;
+      position: absolute;
+      width: 250px;
+      top: unset;
+      bottom: 0;
+      right: 0;
+    }
   }
 }

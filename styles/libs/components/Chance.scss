@@ -5,9 +5,11 @@
 
   .call {
     gap: 150px;
+
     h2 {
       font-size: 100px;
       max-width: 482px;
+      line-height: 97.5%; /* 97.5px */
     }
   }
 
@@ -33,9 +35,21 @@
       }
 
       p {
+        position: relative;
         font-size: 60px;
         font-weight: bold;
         margin-bottom: 0;
+      }
+
+      p.first {
+        &::after {
+          content: "*";
+          font-size: 50px !important;
+          color: #a2f1fe;
+          position: absolute;
+          right: -26px;
+          top: 0;
+        }
       }
 
       .special {
@@ -46,6 +60,136 @@
 
       .credit-card {
         background-color: transparent;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .Chance {
+    .call {
+      gap: 150px;
+
+      h2 {
+        font-size: 70px;
+        max-width: 482px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .Chance {
+    gap: 30px;
+
+    .call {
+      gap: 130px;
+
+      h2 {
+        font-size: 70px;
+        max-width: 313px;
+      }
+    }
+
+    .price-tag {
+      span {
+        font-size: 30px !important;
+      }
+
+      p {
+        font-size: 50px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 991px) {
+  .Chance {
+    gap: 30px;
+    background: red;
+
+    .call {
+      gap: 130px;
+
+      h2 {
+        font-size: 70px !important;
+        max-width: 313px;
+      }
+    }
+
+    .price-tag {
+      span {
+        font-size: 30px !important;
+      }
+
+      p {
+        font-size: 50px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .Chance {
+    margin-top: 50px;
+    gap: 30px;
+
+    .call {
+      flex-direction: column;
+      align-items: start;
+
+      h2 {
+        font-size: 70px;
+        max-width: 313px;
+      }
+
+      ul {
+        padding: 0;
+        margin: 0;
+      }
+    }
+
+    .price-tag {
+      span {
+        font-size: 30px !important;
+      }
+
+      p {
+        font-size: 50px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  .Chance {
+    margin-top: 50px;
+
+    .call {
+      gap: 30px;
+      flex-direction: column;
+      align-items: start;
+
+      h2 {
+        font-size: 70px;
+        max-width: 313px;
+      }
+
+      ul {
+        padding: 0;
+        margin: 0;
+      }
+    }
+
+    .price-tag {
+      flex-direction: column;
+
+      span {
+        font-size: 18px !important;
+      }
+
+      p {
+        font-size: 48px !important;
       }
     }
   }
