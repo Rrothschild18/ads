@@ -75,3 +75,58 @@ b.outline {
   display: block;
   margin-top: -263px;
 }
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  h1 {
+    background-image: url("assets/dust 2.png");
+    font-size: 54px;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 24px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+
+  ._h1 {
+    font-size: 54px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  ._h1 {
+    font-size: 46px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  ._h1 {
+    font-size: 46px;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  ._h1 {
+    font-size: 46px;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  ._h1 {
+    font-size: 38px;
+  }
+}

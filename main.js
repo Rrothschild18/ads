@@ -47,4 +47,3 @@ function onClick(event) {
 
 const dialog = document.querySelector("#video-dialog");
 dialog.addEventListener("click", onClick);
-dialog.showModal();

@@ -37,3 +37,35 @@
     }
   }
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .Vds {
+    b.outline {
+      font-size: 200px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .Vds {
+    b.outline {
+      font-size: 150px;
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .Vds {
+    b.outline {
+      font-size: 100px;
+    }
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  .Vds {
+    b.outline {
+      font-size: 80px;
+    }
+  }
+}

@@ -6,6 +6,11 @@
     display: inline-block;
     position: relative;
     height: 100%;
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
 
     &::after {
       content: "";
@@ -37,6 +42,110 @@
       padding: 16px;
       left: 21%;
       top: -23px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .Banner {
+    picture {
+      &::after {
+        content: "";
+        background-size: 40px 40px;
+
+        height: 65px;
+        width: 65px;
+      }
+
+      &::before {
+        content: "";
+        height: 50px;
+        width: 50px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .Banner {
+    picture {
+      &::after {
+        content: "";
+        background-size: 40px 40px;
+        height: 60px;
+        width: 60px;
+        left: 37%;
+        top: 22%;
+      }
+
+      &::before {
+        content: "";
+        height: 50px;
+        width: 50px;
+        left: 17%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .Banner {
+    picture {
+      margin-top: 80px;
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .Banner {
+    .banner-actions {
+      flex-direction: column;
+    }
+
+    picture {
+      margin-top: 30px;
+      &::after {
+        content: "";
+        background-size: 40px 40px;
+        height: 60px;
+        width: 60px;
+        left: 37%;
+        top: 33%;
+      }
+
+      &::before {
+        content: "";
+        height: 50px;
+        width: 50px;
+        left: 17%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  .Banner {
+    .banner-actions {
+      flex-direction: column;
+    }
+
+    picture {
+      margin-top: 80px;
+      &::after {
+        content: "";
+        background-size: 40px 40px;
+        height: 60px;
+        width: 60px;
+        left: 37%;
+        top: 22%;
+      }
+
+      &::before {
+        content: "";
+        height: 50px;
+        width: 50px;
+        left: 17%;
+      }
     }
   }
 }
