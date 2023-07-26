@@ -150,6 +150,8 @@
     }
 
     .price-tag {
+      gap: 30px;
+
       span {
         font-size: 30px !important;
       }
@@ -183,6 +185,8 @@
 
     .price-tag {
       flex-direction: column;
+
+      gap: 30px;
 
       span {
         font-size: 18px !important;
