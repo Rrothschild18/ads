@@ -1,10 +1,12 @@
 .Button {
-  display: block;
   position: relative;
-  width: 229px;
   padding: 16px 30px 16px 30px;
   border-radius: 8px;
   background: #091f49;
+
+  div {
+    gap: 16px;
+  }
 
   span {
     margin-left: 12px;
@@ -19,14 +21,16 @@
 }
 
 .Button_secondary {
-  display: block;
   position: relative;
-  width: 229px;
   padding: 16px 30px 16px 30px;
   border-radius: 8px;
   background: transparent;
   font-size: 16px;
   font-weight: normal;
+
+  div {
+    gap: 16px;
+  }
 
   span {
     display: flex;
@@ -42,8 +46,6 @@
 }
 
 .Button_tertiary {
-  width: 205px;
-  height: 54px;
   padding: 16px 24px 16px 24px;
   border-radius: 8px;
   background: rgba(9, 31, 73, 1);
@@ -56,10 +58,11 @@
 
   svg {
     height: 24px;
+    margin-right: 8px;
+
     path {
       transition: fill 0.4s ease;
     }
-    margin-right: 8px;
   }
 
   &:hover {
@@ -70,6 +73,235 @@
       path {
         fill: rgba(25, 180, 50, 1) !important;
       }
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  // .Button {
+  //   padding: 8px 24px 8px 24px;
+  // }
+
+  // .Button_secondary {
+  //   padding: 8px 24px 8px 24px;
+  // }
+
+  // .Button_tertiary {
+  //   padding: 8px 24px 8px 24px;
+  // }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .Button {
+    padding: 8px 24px 8px 24px;
+    max-width: 200px;
+
+    span {
+      font-size: 14px;
+    }
+  }
+
+  .Button_secondary {
+    padding: 8px 24px 8px 24px;
+    max-width: 200px;
+
+    span {
+      font-size: 14px;
+    }
+  }
+
+  .Button_tertiary {
+    padding: 8px 24px 8px 24px;
+    max-width: 200px;
+
+    span {
+      font-size: 14px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .Button {
+    padding: 8px 24px 8px 24px;
+    max-width: 200px;
+
+    div {
+      gap: 12px;
+    }
+
+    svg {
+      width: 20px;
+      height: 20px;
+
+      image {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    span {
+      font-size: 14px;
+      margin: 0;
+    }
+  }
+
+  .Button_secondary {
+    padding: 8px 24px 8px 24px;
+    max-width: 200px;
+
+    div {
+      gap: 12px;
+    }
+
+    svg {
+      width: 20px;
+      height: 20px;
+
+      image {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    span {
+      font-size: 14px;
+    }
+  }
+
+  .Button_tertiary {
+    padding: 8px 24px 8px 24px;
+    max-width: 200px;
+    gap: 12px;
+
+    svg {
+      width: 20px;
+      height: 20px;
+
+      image {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    span {
+      font-size: 14px;
+      margin: 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .Button {
+    padding: 8px 24px 8px 24px;
+    max-width: 200px;
+
+    div {
+      gap: 12px;
+    }
+
+    svg {
+      width: 20px;
+      height: 20px;
+
+      image {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    span {
+      font-size: 14px;
+      margin: 0;
+    }
+  }
+
+  .Button_secondary {
+    padding: 8px 24px 8px 24px;
+    max-width: 200px;
+
+    div {
+      gap: 12px;
+    }
+
+    svg {
+      width: 20px;
+      height: 20px;
+
+      image {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    span {
+      font-size: 14px;
+    }
+  }
+
+  .Button_tertiary {
+    padding: 8px 24px 8px 24px;
+    gap: 12px;
+
+    svg {
+      width: 20px;
+      height: 20px;
+
+      image {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    span {
+      font-size: 14px;
+      margin: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  .Button {
+    padding: 8px 24px 8px 24px;
+    max-width: 200px;
+
+    div {
+      gap: 12px;
+    }
+
+    svg {
+      width: 20px;
+      height: 20px;
+
+      image {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    span {
+      font-size: 14px;
+    }
+  }
+
+  .Button_secondary {
+    padding: 8px 24px 8px 24px;
+    max-width: 200px;
+
+    div {
+      gap: 12px;
+    }
+
+    span {
+      font-size: 14px;
+    }
+  }
+
+  .Button_tertiary {
+    padding: 8px 24px 8px 24px;
+    gap: 12px;
+
+    span {
+      font-size: 14px;
     }
   }
 }

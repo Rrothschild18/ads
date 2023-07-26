@@ -11,6 +11,11 @@
       background-size: cover;
     }
 
+    span,
+    h6 {
+      font-family: "Inter", sans-serif !important;
+    }
+
     .title {
       font-size: 14px;
       text-transform: uppercase;
@@ -19,6 +24,81 @@
 
     .name {
       font-size: 32px;
+    }
+  }
+
+  .owll {
+    padding-left: 8px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .Modulos {
+    .module-preview {
+      .name {
+        display: block;
+        margin-top: 16px;
+        text-align: center;
+        font-size: 24px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .Modulos {
+    .module-preview {
+      .banner {
+        width: 410px;
+        height: 210px;
+      }
+
+      span {
+        display: block;
+        text-align: center;
+      }
+
+      .name {
+        display: block;
+        margin-top: 16px;
+        text-align: center;
+        font-size: 24px !important;
+      }
+    }
+    .owll {
+      padding-left: 8px;
+    }
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  .Modulos {
+    .module-preview {
+      .banner {
+        width: 410px;
+        height: 210px;
+      }
+
+      span {
+        display: block;
+        text-align: center;
+      }
+
+      h6 {
+        display: block;
+        margin-top: 16px;
+        text-align: center;
+        font-size: 24px !important;
+      }
+    }
+    .owll {
+      padding-left: 8px;
     }
   }
 }

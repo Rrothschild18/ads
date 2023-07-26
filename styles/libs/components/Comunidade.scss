@@ -5,11 +5,7 @@
   z-index: 99;
 
   a.Button {
-    width: 285px;
-
-    &:before {
-      width: 290px;
-    }
+    max-width: 300px;
   }
 
   p {
@@ -19,5 +15,40 @@
   small {
     color: rgba(149, 160, 176, 1);
     font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .Comunidade {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .Comunidade {
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .Comunidade {
+    padding-top: 60px;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .Comunidade {
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  .Comunidade {
+    padding-top: 60px;
+    padding-bottom: 100px;
   }
 }

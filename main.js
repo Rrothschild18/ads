@@ -6,7 +6,7 @@ import "./node_modules/bootstrap/dist/js/bootstrap.bundle";
 
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
-    loop: false,
+    loop: true,
     margin: 32,
     dots: true,
     dotClass: "custom-dot",
@@ -41,9 +41,19 @@ videoContainer.addEventListener("click", () => {
 function onClick(event) {
   if (event.target === videoDialog) {
     dialog.close();
-    videoFrame.src = "#";
+    videoFrame.src = "";
   }
 }
 
 const dialog = document.querySelector("#video-dialog");
 dialog.addEventListener("click", onClick);
+
+//====
+
+const menuMobile = document.querySelector("#menu-mobile");
+const body = document.querySelector("body");
+
+menuMobile.addEventListener("click", () => {
+  menuMobile.classList.toggle("open");
+  body.classList.toggle("_toggled");
+});
