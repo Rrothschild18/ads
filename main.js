@@ -6,7 +6,7 @@ import "./node_modules/bootstrap/dist/js/bootstrap.bundle";
 
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
-    loop: true,
+    loop: false,
     margin: 32,
     dots: true,
     dotClass: "custom-dot",
