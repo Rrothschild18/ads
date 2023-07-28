@@ -107,6 +107,11 @@
     height: 100%;
     transition: left 3s ease;
 
+    &:before {
+      background: #fff;
+      background-image: unset;
+    }
+
     .content {
       section {
         align-items: start !important;
@@ -142,6 +147,7 @@
     }
 
     .menu-mobile {
+      z-index: 99999;
       .close {
         display: block !important;
       }
